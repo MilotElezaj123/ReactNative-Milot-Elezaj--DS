@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name": "Paris",
+        "country":"France",
+        "description":"Paris is the most visited city and capital city in France"
+    },
+    {
+        "id" : 2,
+        "name":"Milot",
+        "country":"Albania",
+        "description":"Milot is the fifth most populated city in Albania"
+    },
+    {
+        "id" : 3,
+        "name":"Bangkok",
+        "country":"Thailand",
+        "description":"Bangkok is the capital city of Thailand"
+    },
+    {
+        "id" : 4,
+        "name":"Singapore",
+        "country":"Singapore",
+        "description":"Singapore is an island of country and city-state"
+    },
+    {
+        "id" : 5,
+        "name":"Berlin",
+        "country":"Deutschland",
+        "description":"Berlin is the capital city of Deutschland"
+    },
+    {
+        "id" : 6,
+        "name":"Pyongyang",
+        "country":"DPR North Korea",
+        "description":"Pyongyang is the famous city in DPR North Korea"
+    }
+]

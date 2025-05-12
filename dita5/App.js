@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Exercise;
+export default Exercise;np

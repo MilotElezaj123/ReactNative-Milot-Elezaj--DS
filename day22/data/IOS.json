@@ -1,0 +1,41 @@
+[ 
+ {
+    "id": 1,
+    "name": "iPhone 16 Pro MAX",
+    "category": "Smartphones",
+    "price": 2400.00,
+    "image": "https://picsum.photos/200/300?random=11",
+    "description": "Experience the next generation of smartphone technology with the A17 Pro chip and advanced camera system."
+ },
+  {
+    "id": 2,
+    "name": "Apple Watch Series 9",
+    "category": "Wearables",
+    "price": 399.00,
+    "image": "https://picsum.photos/200/300?random=12",
+    "description": "Stay connected, active, and healthy with the newest Apple Watch featuring improved sensors and performance."
+  },
+  {
+    "id": 3,
+    "name": "iPad Air (5th Gen)",
+    "category": "Tablets",
+    "price": 599.00,
+    "image": "https://picsum.photos/200/300?random=13",
+    "description": "Powerful and versatile tablet with the M1 chip, perfect for work, creativity, and entertainment."
+  },
+  {
+    "id": 4,
+    "name": "AirPods Pro (2nd Gen)",
+    "category": "Audio",
+    "price": 249.00,
+    "image": "https://picsum.photos/200/300?random=14",
+    "description": "Immersive sound with Active Noise Cancellation and Adaptive Transparency in a comfortable design."
+  },
+  {
+    "id": 5,
+    "name": "MagSafe Charger",
+    "category": "Accessories",
+    "price": 39.00,
+    "image": "https://picsum.photos/200/300?random=15"
+  }
+]
