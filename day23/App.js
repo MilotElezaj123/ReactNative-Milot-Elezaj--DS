@@ -8,10 +8,11 @@ import Welcome from './screen/WelcomeScreen'
 export default function App() {
   return (
    <NavigationContainer>
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName="Login">
       <Stack.Screen name="Login" component={Login}/>
       <Stack.Screen name="Welcome" component={Welcome}/>
     </Stack.Navigator>
+    <StatusBar style='auto'/>
    </NavigationContainer>
   );
 }

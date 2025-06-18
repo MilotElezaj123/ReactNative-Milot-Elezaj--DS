@@ -3,31 +3,34 @@ import { View,Text,TextInput,Button,StyleSheet } from "react-native";
 
 const Login=()=>{
     const handleLogin = async () => {
-    try{
-    const response = await fetch('http://dummyjson.com/auth/login',{
-       method:'POST',
-       header: {'Content-Type': 'application/json'},
-       body: JSON.stringify({
-        username: username,
-        password: password
-       }),
-       credentials: 'omit'
-    });
+        console.log(username,password)
+        try {
+            const response = await fetch('http://dummyjson.com/auth/login', {
+                method: 'POST',
+                header: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    username: username,
+                    password: password
+                }),
+                credentials: 'omit'
+            });
 
-    const data = await response.json();
-    console.log(data);
+            const data = await response.json();
+            console.log(data);
 
-    if(data?.token){
-        navigator.navigate('Welcome',{
-            username: username
-        });
-    }else{
-        alert(data.message || 'Login failed. Please check your credentials');
-    }
- }catch (err){
-     console.log('Login error: ',err);
-     alert('An error occured while logging in.');
- }
+            if (data?.token) {
+                navigator.navigate('Welcome', {
+                    username: username
+                });
+            } else {
+                alert(data.message || 'Login failed. Please check your credentials');
+            }
+        } catch (err) {
+            console.log('Login error: ', err);
+            alert('An error occured while logging in.');
+        }
 
   };
   return(
